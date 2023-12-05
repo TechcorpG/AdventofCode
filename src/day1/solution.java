@@ -15,7 +15,6 @@ public class solution {
 
         while(in.hasNext()){
             String temp = in.nextLine();
-            int max = temp.length();
             Pattern pattern = Pattern.compile("\\d");
             Matcher matcher = pattern.matcher(temp);
 
@@ -23,7 +22,7 @@ public class solution {
             int second = 0;
 
             if(matcher.find())
-                first = Integer.parseInt(String.valueOf(temp.charAt(matcher.start())));
+                first = Integer.valueOf(String.valueOf(temp.charAt(matcher.start())));
 
             int cc=0;
             while(matcher.find()){
