@@ -45,7 +45,7 @@ public class solution {
 
             if(bool) {
                 ges = ges + game_num;
-                System.out.println("Das Spiel kann durchgeführt werden!");
+                System.out.println("Das " + game_num + ". Spiel kann durchgeführt werden!");
             }
         }
 
