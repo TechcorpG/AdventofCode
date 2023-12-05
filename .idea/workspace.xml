@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7d7267d-0e52-4286-b073-c0e251a19ebd" name="Changes" comment="Full Template">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day1/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day1/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day1/solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day1/solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +70,7 @@
       <updated>1701378440235</updated>
       <workItem from="1701378441227" duration="1378000" />
       <workItem from="1701427029519" duration="3965000" />
+      <workItem from="1701798941269" duration="3190000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -98,5 +98,16 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Full Template" />
     <option name="LAST_COMMIT_MESSAGE" value="Full Template" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day1/solution.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

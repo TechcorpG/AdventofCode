@@ -7,28 +7,41 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class solution {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
 
-        Scanner in = new Scanner(new FileReader("input.txt"));
+        Scanner in = new Scanner(new File("src/day1/input.txt"));
+
+        int ges = 0;
 
         while(in.hasNext()){
             String temp = in.nextLine();
             int max = temp.length();
             Pattern pattern = Pattern.compile("\\d");
+            Matcher matcher = pattern.matcher(temp);
 
-            for(int i=0;i<max;i++){
-                char c = temp.charAt(i);
+            int first = 0;
+            int second = 0;
 
-                Matcher matcher = pattern.matcher(String.valueOf(c));
+            if(matcher.find())
+                first = Integer.parseInt(String.valueOf(temp.charAt(matcher.start())));
 
-            }
-
+            int cc=0;
             while(matcher.find()){
-                
+                second = Integer.parseInt(String.valueOf(temp.charAt(matcher.start())));
+                cc++;
             }
 
+            if(cc==0)
+                second = first;
 
+            int num = Integer.parseInt(String.valueOf(first) + String.valueOf(second));
+
+            ges = ges + num;
+
+            System.out.println("Ziffer: " + num);
         }
+
+        System.out.println("Das Ergebnis ist: " + ges + "!");
 
     }
 }
