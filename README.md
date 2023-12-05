@@ -1,8 +1,8 @@
 # AdventofCode
 ## Erledigte Tage
-Day1
+Day1\
+Day2
 ## Tage in Bearbeitung
-Day2\
 Day3
 ## Benutzte Packages/Methoden
 Regex\
