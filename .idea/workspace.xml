@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7d7267d-0e52-4286-b073-c0e251a19ebd" name="Changes" comment="Complete Day 2">
-      <change afterPath="$PROJECT_DIR$/src/day3/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day3/solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day1/solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day1/solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +46,14 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "19",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/programme/Intellij_idea/projekte/AdventofCode/src/day2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -67,6 +70,13 @@
       <recent name="day3" />
     </key>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-7d648f2c" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -78,6 +88,7 @@
       <workItem from="1701378441227" duration="1378000" />
       <workItem from="1701427029519" duration="3965000" />
       <workItem from="1701798941269" duration="8645000" />
+      <workItem from="1702385995273" duration="1309000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -151,16 +162,5 @@
     <MESSAGE value="Initial Day 2" />
     <MESSAGE value="Complete Day 2" />
     <option name="LAST_COMMIT_MESSAGE" value="Complete Day 2" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/day1/solution.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
